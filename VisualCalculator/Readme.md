@@ -1,3 +1,3 @@
 # Visual Calculator
 
-A calculator. Just click on any operation of the buttons to see the result. 
+A calculator. Just click on any of the operation buttons to see the result.
