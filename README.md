@@ -7,3 +7,4 @@ So far:
 - A Palindrome checker. It simply assesses if a string is a palindrome, i.e. its reverse is the same as the untouched word. Dad is a palindrome.
 - Vowel Counter. Counts vowels in a string.
 - A more sophisticated project, a notepad clone with spellcheck.
+- A Visual Calculator.
