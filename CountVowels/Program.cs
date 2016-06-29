@@ -8,25 +8,37 @@ namespace CountVowels
 {
     class Program
     {
+        public static int CountOccurances(string word, List<char> oddities)
+        {
+            int count = 0;
+            List<char> wordSplit = word.ToCharArray().ToList();
+
+            for (int i = 0; i < wordSplit.Count; i++)
+            {
+                if (oddities.Contains(wordSplit[i]))
+                    count += 1;
+            }
+
+            return count;
+        }
+
         static void Main(string[] args)
         {
             string word = Console.ReadLine();
-            char[] wordSplit = word.ToCharArray();
-            int vowelCount = 0;
+            char[] characters = { 'e', 'E', 'a', 'A', 'o', 'O', 'i', 'I' };
+            List<char> oddities = new List<char>();
+            oddities.AddRange(characters);
 
-            for (int i = 0; i < wordSplit.Length; i++)
-            {
-                if (wordSplit[i] == 'e' || wordSplit[i] == 'a' || wordSplit[i] == 'u' || wordSplit[i] == 'i' || wordSplit[i] == 'o' ||
-                   wordSplit[i] == 'E' || wordSplit[i] == 'A' || wordSplit[i] == 'U' || wordSplit[i] == 'I' || wordSplit[i] == 'O')
-                {
-                    vowelCount += 1;
-                }
-                else
-                    continue;
-            }
-
-            Console.WriteLine(vowelCount);
+            string countVowels = CountOccurances(word, oddities).ToString();
+            Console.WriteLine(countVowels);
             Console.ReadKey();
+          
+
+
+                        
+            
         }
+
+        
     }
 }
