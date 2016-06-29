@@ -32,11 +32,6 @@ namespace CountVowels
             string countVowels = CountOccurances(word, oddities).ToString();
             Console.WriteLine(countVowels);
             Console.ReadKey();
-          
-
-
-                        
-            
         }
 
         
