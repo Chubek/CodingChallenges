@@ -1,3 +1,3 @@
 #Sliding WIndow Problem
 
-A stable of Olympiads (stupid as they are). Explanations inside.
+A stable of Olympiads. Explanations inside.
