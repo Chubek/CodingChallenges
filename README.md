@@ -8,3 +8,4 @@ So far:
 - Vowel Counter. Counts vowels in a string.
 - A more sophisticated project, a notepad clone with spellcheck.
 - A Visual Calculator.
+- A word ladder creator.
