@@ -9,3 +9,5 @@ So far:
 - A more sophisticated project, a notepad clone with spellcheck.
 - A Visual Calculator.
 - A word ladder creator.
+- Powerplant simulator.
+- Print iterator.
