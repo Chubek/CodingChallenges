@@ -11,3 +11,4 @@ So far:
 - A word ladder creator.
 - Powerplant simulator.
 - Print iterator.
+- Garage Door Simulator.
