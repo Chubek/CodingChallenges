@@ -1,4 +1,4 @@
-# CodingChallenges
+# Coding Challenges
 Contains solved coding challenges in C#
 
 So far:
