@@ -1,5 +1,6 @@
 # Coding Challenges
 Contains solved coding challenges in C#
+[My Blog](http://chubek.github.io)
 
 So far:
 
