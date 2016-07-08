@@ -6,8 +6,18 @@ def ParseListA(listA):
     
 def MergeSort(listA, listB):
     newListA = ParseListA(listA);    
+    zeroCount = 0;
 
+    for number in listB:
+        if number == 0:
+            zeroCount += 1;
+
+    if zeroCount == 0:
+        raise ValueError("Needs zeros!");
+        return;
+    
     newlistB = [i for i in listB if i != 0];
+    
 
     return sorted(newListA+newlistB);
 
