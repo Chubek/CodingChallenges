@@ -12,7 +12,7 @@ def RemoveAsterix(myString):
         del myStringList[-2:]
         
 
-    for i in range(0, len(myStringList) - 1):
+    for i in range(1, len(myStringList) - 2):
          if myStringList[i] == '*':
              del myStringList[i-1:i+2]
              break;
