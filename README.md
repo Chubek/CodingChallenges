@@ -1,5 +1,5 @@
 # Coding Challenges
-Contains solved coding challenges in C#
+Contains solved coding challenges in C# and Python.
 
 [My Blog](http://chubek.github.io)
 
@@ -14,5 +14,7 @@ So far:
 - Powerplant simulator.
 - Print iterator.
 - Garage Door Simulator.
+- A decimal to binary.
+
 
 And many more!
