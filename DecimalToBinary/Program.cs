@@ -21,7 +21,7 @@ namespace DecimalToBinary
             List<int> remainders = new List<int>();
 
             int divided = Division(deniry);
-            
+            returnList.Add(deniry);
 
             foreach (var number in returnList)
             {
