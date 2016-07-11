@@ -21,6 +21,11 @@ def main():
             if substrings[i - 1] != substrings[i]:
                 temp = substrings
                 break
+        else:
+            continue
+
+        break
+
 
     print(temp)
 
