@@ -1,3 +1,3 @@
 #Leftmost Substring
 
-Prints the leftmost substring where substring has unique characters.
+Prints the rightmost substring where substring has unique characters.
