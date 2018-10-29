@@ -1,5 +1,5 @@
 # Coding Challenges
-Contains solved coding challenges in C# and Python.
+Contains solved coding challenges in C++, C# and Python.
 
 [My Blog](http://chubek.github.io)
 
