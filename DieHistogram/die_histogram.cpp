@@ -29,9 +29,9 @@ std::map<int, int> histogram_calculate(int times)
 
 
     std::map<int, int> cnt_hashmap;
-    auto max_element = std::max_element(random_numbers.begin(), random_numbers.end());
+    auto max_element = 6;
 
-    for (int i = 1; i <= *max_element; ++i)
+    for (int i = 1; i <= max_element; ++i)
     {
         cnt_hashmap[i] = 0;
     }
