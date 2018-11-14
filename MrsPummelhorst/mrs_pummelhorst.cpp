@@ -9,7 +9,7 @@ typedef std::vector<std::vector<int>> double_list_type;
 list_type consec_list(list_type &nums)
 {
     list_type ret;
-    auto half_size = std::ceil(nums.size() / 2);
+    auto half_size = std::ceil(nums.size() / 2.00);
 
     //std::cout << half_size << std::endl;
 
@@ -32,7 +32,7 @@ double_list_type pummelhorst(list_type list)
 {
     double_list_type ret;
 
-    while (list.size() > 1)
+    while (list.size() > 0)
     {
         ret.push_back(consec_list(list));
         std::cout << list.size() << std::endl;
