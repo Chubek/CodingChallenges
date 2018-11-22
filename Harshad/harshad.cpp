@@ -18,10 +18,7 @@ bool is_harshad(int n)
 
 	int sum = std::accumulate(digits.begin(), digits.end(), 0);
 
-	if (n % sum == 0)
-		return true;
-	else
-		return false;
+	return (n % sum == 0);
 }
 
 int next_harshad(int n)
