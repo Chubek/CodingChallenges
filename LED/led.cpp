@@ -15,11 +15,11 @@ std::string LED(std::string red, std::string blue)
 	{
 		if (red[i] == '0' && blue[i] == '1')
 		{
-			result += 'R';
-		}
-		else if (red[i] == '1' && blue[i] == 0)
-		{
 			result += 'B';
+		}
+		else if (red[i] == '1' && blue[i] == '0')
+		{
+			result += 'R';
 		}
 		else if (red[i] == '1' && blue[i] == '1')
 		{
