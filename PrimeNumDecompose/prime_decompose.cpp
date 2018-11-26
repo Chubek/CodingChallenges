@@ -1,6 +1,7 @@
 // PrimeNumComposition.cpp : Created by Chubak
 //
 
+#include <iostream>
 #include <cmath>
 #include <map>
 #include <string>
