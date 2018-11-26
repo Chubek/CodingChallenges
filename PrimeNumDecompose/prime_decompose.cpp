@@ -1,9 +1,7 @@
-// PrimeNumComposition.cpp : Defines the entry point for the console application.
+// PrimeNumComposition.cpp : Created by Chubak
 //
 
-#include "stdafx.h"
-#include <iostream>
-#include <vector>
+#include <cmath>
 #include <map>
 #include <string>
 
@@ -27,14 +25,14 @@ std::string prime_decompose(int n)
 {
 	std::map<int, int> divide;
 
-	for (int i = 0; i < n; ++i)
+	for (int i = 2; i <= std::sqrt(n); ++i)
 	{
 		if (is_prime(i))
 		{
 			divide[i] = 0;
 
 			
-			while (n % i != 0)
+			while (n % i == 0)
 			{
 				divide[i] += 1;
 				n /= i;
@@ -48,9 +46,9 @@ std::string prime_decompose(int n)
 	for (auto const& x : divide)
 	{
 		result += '(';
-		result += x.first;
+		result += std::to_string(x.first);
 		result += '*';
-		result += x.second;
+		result += std::to_string(x.second);
 		result += ')';
 	}
 
